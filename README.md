@@ -16,13 +16,13 @@ curl -i -X POST -d '{"name": "John Smith", "bookingDate": "2020-06-25", "roomNum
 
 Getting information about an existing one
 ```
-curl -H "Content-Type: application/json" https://senihtosun-rest-api.herokuapp.com/booking/5ee689ecc0baa600246a62c8
+curl -H "Content-Type: application/json" https://senihtosun-rest-api.herokuapp.com/booking/id
 ```
 
 Deleting an existing one
 
 ```
-curl -i -X DELETE -H "Content-Type: application/json" https://senihtosun-rest-api.herokuapp.com/booking/5ee689ecc0baa600246a62c8
+curl -i -X DELETE -H "Content-Type: application/json" https://senihtosun-rest-api.herokuapp.com/booking/id
 
 ```
 
