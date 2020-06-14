@@ -1,6 +1,6 @@
 # Room Booking Rest API
 A simple Rest API for room booking
-https://senihtosun-rest-api.herokuapp.com
+https://senihtosun-rest-api.herokuapp.com/booking
 
 # Usage
 For this rest API you need to send a name, booking date, and room number.
