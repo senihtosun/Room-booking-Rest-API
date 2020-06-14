@@ -22,7 +22,7 @@ curl -H "Content-Type: application/json" https://senihtosun-rest-api.herokuapp.c
 Deleting an existing one
 
 ```
-curl -i -X DELETE -H "Content-Type: application/json" https://senihtosun-rest-api.herokuapp.com/booking/id
+curl -i -X DELETE https://senihtosun-rest-api.herokuapp.com/booking/id
 
 ```
 
