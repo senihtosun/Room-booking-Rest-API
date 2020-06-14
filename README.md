@@ -3,17 +3,25 @@ A simple Rest API for room booking
 https://senihtosun-rest-api.herokuapp.com/booking
 
 # Usage
-For this rest API you need to send a name, booking date, and room number.
+You can use an application like [Postman](https://postman.com) to interact with this rest API.
 
-You can use an application like [Postman](https://postman.com) to interact with the rest API
+Testing with cURL
 
-Example json object:
+Creating a new booking
 ```
-{
-  "name": "John Smith",
-  "bookingDate": "2020-06-25",
-  "roomNumber": 313
-}
+curl -i -X POST -d '{"name": "John Smith", "bookingDate": "2020-06-25", "roomNumber": 313}' -H "Content-Type: application/json" https://senihtosun-rest-api.herokuapp.com/booking
+
+```
+Getting information about an existing one
+```
+curl -H "Content-Type: application/json" https://senihtosun-rest-api.herokuapp.com/booking/5ee689ecc0baa600246a62c8
+```
+
+Deleting an existing one
+
+```
+curl -i -X DELETE -H "Content-Type: application/json" https://senihtosun-rest-api.herokuapp.com/booking/5ee689ecc0baa600246a62c8
+
 ```
 
 
