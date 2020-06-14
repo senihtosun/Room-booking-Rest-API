@@ -2,10 +2,9 @@
 A simple Rest API for room booking
 https://senihtosun-rest-api.herokuapp.com/booking
 
-# Usage
-You can use an application like [Postman](https://postman.com) to interact with this rest API.
+# Testing with cURL
+Alternatively you can use an application like [Postman](https://postman.com) to interact with this rest API.
 
-Testing with cURL
 
 Creating a new booking
 ```
